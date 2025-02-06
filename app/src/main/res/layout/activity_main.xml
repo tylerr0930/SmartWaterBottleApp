@@ -6,6 +6,56 @@
     android:layout_height="match_parent"
     android:paddingTop="?attr/actionBarSize">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="100">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="50"
+            android:text="This is the top section"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:textColor="@color/bottleBlue"
+            android:textSize="100sp"
+            android:background="@color/bottleBackground"
+            android:textStyle="bold"
+
+        />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="50"
+            >
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:text="This is the Daily Summary Section"
+                android:textColor="@color/dailyStatsText"
+                android:background="@color/dailyStatsBackground"
+                android:gravity="center"
+                android:layout_weight="25"
+                />
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:text="This is the Recommendations section"
+                android:textColor="@color/recommendText"
+                android:background="@color/recommendBackground"
+                android:gravity="center"
+                android:layout_weight="25"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/nav_view"
         android:layout_width="0dp"

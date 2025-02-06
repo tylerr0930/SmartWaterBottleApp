@@ -6,5 +6,10 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="bottleBlue">#064E6A</color>
+    <color name="bottleBackground">#9E066C</color>
+    <color name="dailyStatsText">#FF9D00</color>
+    <color name="dailyStatsBackground">#215924</color>
+    <color name="recommendText">#BFEC00EF</color>
+    <color name="recommendBackground">#000000</color>
 </resources>
